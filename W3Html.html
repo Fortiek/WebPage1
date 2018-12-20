@@ -3,6 +3,8 @@
 <html>
 <head>
 	<title>Quick WebApp</title>
+	<meta charset="UTF-8">
+	<lang="en-US">
 </head>
 <body>
 <!-- use every available tool as it's displayed on W3Schools tutorials -->
@@ -14,12 +16,18 @@
 		<p>Simple web pages designed around<br/><!-- <br> is a break in the line, helps with readability -->
 		the W3Schools tutorials<br/>
 		</p>
+		<hr/><!-- Horizontal rule seperates content, another empty attribute, end immediately-->
+		
 <!-- <a href="#"> is an attribute link that can guide a user to another page, needs an href to directly link -->
-			<a href ="https://www.google.com/">Simple Link</a>
+			<a href ="https://www.google.com/" title="A link to the past">Simple Link</a><!-- title="#" is a tooltip -->
+			
 <!-- Next, an image needs to be given a directory where to take the image from, and an alt description in case the image doesn't load -->
-			<img src="C:\Users\forti\Pictures\Saved Pictures\image.png" alt="w3school logo"><br/>
+			<img src="C:\Users\forti\Pictures\Saved Pictures\image.png" alt="w3school logo" width="200" height="200"><br/>
+			<!-- Above, the "width" and "height" are in-line CSS attributes to clean up the appearance of the pic-->
+			
 <!-- Next, a button element which will require javascript for functionality -->
 			<button>Click</button><br/>
+			
 <!-- Next, list options. ul is 'unordered list' and ol is 'ordered list' both requir <li> or, 'list items' -->
 			<ul>
 				<li>part one</li>
@@ -32,5 +40,14 @@
 				<li>css</li>
 				<li>javascript</li>
 			</ol>
-</body>
-</html>
+		
+<!-- Next, a pre-formatted text entry, displays differently than standard <p> -->
+			<pre>
+				Fozzy Wozzy was a bear
+				
+				Fozzy Wozzy had no hair
+				
+				Fozzy wasn't very fuzzy was he?
+			</pre>
+</body><!-- Closing body tag-->
+</html><!-- Closing HTML tag-->
